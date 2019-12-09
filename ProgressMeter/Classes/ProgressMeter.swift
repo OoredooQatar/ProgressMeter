@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable public class ProgressMeter: UIView {
+ public class ProgressMeter: UIView {
 
     // MARK: - Properties
     
