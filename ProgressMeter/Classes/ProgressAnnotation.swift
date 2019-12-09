@@ -122,7 +122,7 @@ class ProgressAnnotation: UIView {
         
         viewLeading = self.centerXAnchor.constraint(equalTo: superView.progressViewLeadingAnchor, constant: leadingOffset)
         
-        NSLayoutConstraint.activate([heightAnchor, bottomAnchor, viewLeading,widthAnchor])
+        NSLayoutConstraint.activate([heightAnchor, widthAnchor, bottomAnchor, viewLeading])
     }
     
     private func setupLabelConstraint() {
@@ -162,9 +162,8 @@ class ProgressAnnotation: UIView {
     // MARK: - Helper
     
     private func updateLeadingConstraint() {
-        guard let leading = viewLeading else {return}
-        if leading.isActive {
-            leading.constant = leadingOffset
+        if viewLeading.isActive {
+            viewLeading.constant = leadingOffset
             self.layoutIfNeeded()
         }
     }

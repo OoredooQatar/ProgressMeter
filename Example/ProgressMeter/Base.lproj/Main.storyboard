@@ -30,7 +30,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clJ-7H-NiX" customClass="ProgressMeter" customModule="ProgressMeter">
-                                <rect key="frame" x="5" y="431" width="365" height="20"/>
+                                <rect key="frame" x="98.666666666666671" y="431" width="177.66666666666663" height="20"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="20" id="XVB-oS-PXN"/>
@@ -39,7 +39,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="clJ-7H-NiX" firstAttribute="width" secondItem="ZSb-I2-CbS" secondAttribute="width" constant="-10" id="Ied-qv-Yvm"/>
+                            <constraint firstItem="clJ-7H-NiX" firstAttribute="width" secondItem="ZSb-I2-CbS" secondAttribute="width" multiplier="1:2" constant="-10" id="Ied-qv-Yvm"/>
                             <constraint firstItem="ahK-kS-h9m" firstAttribute="top" secondItem="gB4-hq-Xxf" secondAttribute="bottom" constant="30" id="Iyp-O3-uoa"/>
                             <constraint firstItem="gB4-hq-Xxf" firstAttribute="centerX" secondItem="ZSb-I2-CbS" secondAttribute="centerX" id="SZZ-tR-C1q"/>
                             <constraint firstItem="clJ-7H-NiX" firstAttribute="centerX" secondItem="4xH-Kc-ePh" secondAttribute="centerX" id="UHv-te-5q8"/>
