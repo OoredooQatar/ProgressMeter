@@ -102,8 +102,8 @@ class ProgressAnnotation: UIView {
         
         label.text = text
         label.textColor = textColor
-        self.addSubview(label)
-        setupLabelConstraint()
+        //self.addSubview(label)
+        //setupLabelConstraint()
     }
     
     private func setupDivider() {
@@ -117,12 +117,12 @@ class ProgressAnnotation: UIView {
         
         self.translatesAutoresizingMaskIntoConstraints = false
         let heightAnchor = self.heightAnchor.constraint(equalTo: superView.heightAnchor)
-        let widthAnchor = self.widthAnchor.constraint(equalTo: label.widthAnchor)
+        //let widthAnchor = self.widthAnchor.constraint(equalTo: label.widthAnchor)
         let bottomAnchor = self.bottomAnchor.constraint(equalTo: superView.progressViewBottomAnchor)
         
         viewLeading = self.centerXAnchor.constraint(equalTo: superView.progressViewLeadingAnchor, constant: leadingOffset)
         
-        NSLayoutConstraint.activate([heightAnchor, widthAnchor, bottomAnchor, viewLeading])
+        NSLayoutConstraint.activate([heightAnchor, bottomAnchor, viewLeading])
     }
     
     private func setupLabelConstraint() {
@@ -161,8 +161,9 @@ class ProgressAnnotation: UIView {
     // MARK: - Helper
     
     private func updateLeadingConstraint() {
-        if viewLeading.isActive {
-            viewLeading.constant = leadingOffset
+        guard let leading = viewLeading else {return}
+        if leading.isActive {
+            leading.constant = leadingOffset
             self.layoutIfNeeded()
         }
     }

@@ -94,10 +94,12 @@ import UIKit
     @IBInspectable public var dividerColor: UIColor = .black
     
     /// set number of division color
-    @IBInspectable public var numberOfDivisions: Int = 1
+    public var numberOfDivisions: Int = 1
     
     /// set annotation position
     @IBInspectable public var annotationPositionOnTop: Bool = true
+    /// set annotation Hide
+    @IBInspectable public var annotationHide: Bool = false
     
     // MARK: - Initialization
     
