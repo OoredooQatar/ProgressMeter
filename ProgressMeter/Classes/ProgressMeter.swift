@@ -214,8 +214,8 @@ import UIKit
             
             divider.text = "\(value)"
             divider.dividerHeight = self.frame.height - topOffset
-            let pos = position(for: value, of: maxValue)
-            let xOffset = position(for: value, of: maxValue) + initialOffset
+            let pos = dividerPosition(for: value, of: maxValue)
+            let xOffset = dividerPosition(for: value, of: maxValue) + initialOffset
             divider.leadingOffset = xOffset
             divider.dividerColor = dividerColor
             divider.textColor = annotationTextColor
@@ -259,7 +259,7 @@ import UIKit
         }
     }
     
-    private func position(for value: Double, of maximum: Double) -> CGFloat {
+    private func dividerPosition(for value: Double, of maximum: Double) -> CGFloat {
         
         let percentage = value / maximum
         guard !percentage.isNaN else {
