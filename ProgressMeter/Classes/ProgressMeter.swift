@@ -204,7 +204,9 @@ import UIKit
         // Progress view divider positioning offsets
         let initialOffset = progressView.frame.origin.x
         var index = 0
-        
+
+        let gap = CGFloat(Double(self.frame.width) / Double(data.count))
+        var prevPosition = initialOffset
         while (index < data.count) {
             
             let value = data[index]
@@ -215,8 +217,9 @@ import UIKit
             divider.text = "\(value)"
             divider.dividerHeight = self.frame.height - topOffset
             let pos = dividerPosition(for: value, of: maxValue)
-            let xOffset = dividerPosition(for: value, of: maxValue) + initialOffset
+            let xOffset = gap + prevPosition
             divider.leadingOffset = xOffset
+            prevPosition = xOffset
             divider.dividerColor = dividerColor
             divider.textColor = annotationTextColor
             
@@ -239,6 +242,7 @@ import UIKit
             }
             
             index += 1
+
         }
     }
     
