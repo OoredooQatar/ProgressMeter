@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		0DF2ED745A18EB416B443ABE5D0F108C /* Pods-ProgressMeter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProgressMeter_Example.modulemap"; sourceTree = "<group>"; };
-		0EA19BC549938E312BBC7FC5E2747488 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0EA19BC549938E312BBC7FC5E2747488 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		10FBDF3FDEDC7BB2945CE13C023CB1F6 /* Pods-ProgressMeter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		14A218CF2F839DB7A21B9E6B6426EC6B /* Pods-ProgressMeter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProgressMeter_Tests-Info.plist"; sourceTree = "<group>"; };
 		174A451E380AFE52E249AD4CED636121 /* Pods-ProgressMeter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ProgressMeter_Tests.modulemap"; sourceTree = "<group>"; };
@@ -55,20 +55,20 @@
 		962A6A890ED869B50846646FC994A424 /* ProgressMeter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressMeter.swift; path = ProgressMeter/Classes/ProgressMeter.swift; sourceTree = "<group>"; };
 		97DB740AD40804E5D0A314FC00801BCC /* Pods-ProgressMeter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ProgressMeter_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9BBBBE215153663E679208D6F73B1690 /* Pods-ProgressMeter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProgressMeter_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00B9BFABE249522C5F224B4E04B1220 /* Pods-ProgressMeter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ProgressMeter_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AE51732337AE6B0923F294ECF9AA03F0 /* Pods-ProgressMeter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B4948813B9BADD6430C1C61174B97E64 /* Pods_ProgressMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProgressMeter_Tests.framework; path = "Pods-ProgressMeter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B73B6B00F1A3B802C4100F4160946F79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B4948813B9BADD6430C1C61174B97E64 /* Pods_ProgressMeter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressMeter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B73B6B00F1A3B802C4100F4160946F79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BD7154AAAFF788E27FB536A10241C06C /* ProgressAnnotation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProgressAnnotation.swift; path = ProgressMeter/Classes/ProgressAnnotation.swift; sourceTree = "<group>"; };
 		C1F39E2606698F964F963F4FFEC7BCCE /* Pods-ProgressMeter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ProgressMeter_Example-Info.plist"; sourceTree = "<group>"; };
-		C96F985A3B7D6716DFFEC35D272BE584 /* ProgressMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ProgressMeter.framework; path = ProgressMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C96F985A3B7D6716DFFEC35D272BE584 /* ProgressMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ProgressMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD4B1032E85EC0C2D62769AD1ECED37E /* Pods-ProgressMeter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ProgressMeter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEFAA5CFAF59E0C2EB96BDFF1AE66ADF /* ProgressMeter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ProgressMeter.modulemap; sourceTree = "<group>"; };
 		E49B74B657904B4876D67B880B3A3425 /* ProgressMeter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ProgressMeter-umbrella.h"; sourceTree = "<group>"; };
 		E8FAD729BE03D9B2D1598984968E7CCB /* Pods-ProgressMeter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EFEC002D00B4622BD583A7B0B9E0A5CD /* Pods_ProgressMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ProgressMeter_Example.framework; path = "Pods-ProgressMeter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F19CD8CF3AD0FD93CD280225AC256B6F /* ProgressMeter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ProgressMeter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EFEC002D00B4622BD583A7B0B9E0A5CD /* Pods_ProgressMeter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProgressMeter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19CD8CF3AD0FD93CD280225AC256B6F /* ProgressMeter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ProgressMeter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F945A55E97939CD44CFBC4AFB4DD74E0 /* Pods-ProgressMeter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ProgressMeter_Example-dummy.m"; sourceTree = "<group>"; };
 		FEE91301975C6FD7308499CF2A29D88D /* Pods-ProgressMeter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ProgressMeter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -493,6 +493,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.7;
 				MODULEMAP_FILE = "Target Support Files/ProgressMeter/ProgressMeter.modulemap";
 				PRODUCT_MODULE_NAME = ProgressMeter;
 				PRODUCT_NAME = ProgressMeter;
@@ -524,6 +525,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.7;
 				MODULEMAP_FILE = "Target Support Files/ProgressMeter/ProgressMeter.modulemap";
 				PRODUCT_MODULE_NAME = ProgressMeter;
 				PRODUCT_NAME = ProgressMeter;
@@ -624,8 +626,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

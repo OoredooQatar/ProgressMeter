@@ -141,7 +141,7 @@ import UIKit
         progressView.progress = progress
         
         // border
-        progressView.layer.borderWidth = borderWidth
+        progressView.layer.borderWidth = progressBorderWidth
         progressView.layer.borderColor = borderColor.cgColor
         
         // self config
