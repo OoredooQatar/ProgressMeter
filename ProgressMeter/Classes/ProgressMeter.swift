@@ -232,9 +232,9 @@ import UIKit
             }
             
             // case 2: trailing edge of progress meter
-            if xOffset > (0.95 * self.frame.width) {
-                divider.dividerColor = .clear
-            }
+//            if xOffset > (0.95 * self.frame.width) {
+//                divider.dividerColor = .clear
+//            }
             
             // corner case: if the last entry of data is equal to the maxValue
             if value == maxValue {
