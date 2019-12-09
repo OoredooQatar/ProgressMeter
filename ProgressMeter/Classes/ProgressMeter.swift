@@ -74,9 +74,9 @@ import UIKit
     }
     
     /// set boarder width
-    @IBInspectable public var borderWidth: CGFloat = 1 {
+    @IBInspectable public var progressBorderWidth: CGFloat = 1 {
         didSet {
-            progressView.layer.borderWidth = borderWidth
+            progressView.layer.borderWidth = progressBorderWidth
         }
     }
     

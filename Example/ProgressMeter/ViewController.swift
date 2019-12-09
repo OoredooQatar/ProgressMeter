@@ -38,7 +38,7 @@ class ViewController: UIViewController {
 //        progressControl.data = [1999, 4999, 9999, 14999, 20000]
 //        progressControl.progress = 14999 / 20000
         progressControl.numberOfDivisions = 10
-        progressControl.maxValue = 1000
+        progressControl.maxValue = 100
         progressControl.progress = 60 / 100
     }
     
