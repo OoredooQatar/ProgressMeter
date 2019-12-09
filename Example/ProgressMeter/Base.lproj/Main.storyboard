@@ -30,10 +30,10 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="clJ-7H-NiX" customClass="ProgressMeter" customModule="ProgressMeter">
-                                <rect key="frame" x="5" y="431" width="365" height="40"/>
+                                <rect key="frame" x="5" y="431" width="365" height="20"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="XVB-oS-PXN"/>
+                                    <constraint firstAttribute="height" constant="20" id="XVB-oS-PXN"/>
                                 </constraints>
                             </view>
                         </subviews>

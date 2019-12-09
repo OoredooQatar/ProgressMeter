@@ -14,7 +14,7 @@ import UIKit
     
     private let progressView = UIProgressView(progressViewStyle: .default)
     private var dividers: [ProgressAnnotation] = []
-    private let topOffset: CGFloat = 15.0
+    private let topOffset: CGFloat = 5.0
     
     private var progressViewHeight: CGFloat {
         return progressView.frame.height
@@ -193,9 +193,10 @@ import UIKit
         let leadingAnchor = progressView.leadingAnchor.constraint(equalTo: self.leadingAnchor)
         let trailingAnchor = progressView.trailingAnchor.constraint(equalTo: self.trailingAnchor)
         let widthAnchor = progressView.widthAnchor.constraint(equalTo: self.widthAnchor)
-        let heightAnchor = progressView.heightAnchor.constraint(equalToConstant: self.frame.height - topOffset)
+        let heightAnchor = progressView.heightAnchor.constraint(equalToConstant: self.frame.height)
+        let yCenter =  progressView.centerYAnchor.constraint(equalTo: self.centerYAnchor)
 
-        NSLayoutConstraint.activate([topAnchor, leadingAnchor, trailingAnchor, widthAnchor, heightAnchor])
+        NSLayoutConstraint.activate([yCenter, leadingAnchor, trailingAnchor, widthAnchor, heightAnchor,topAnchor])
     }
     
     private func addDivider() {

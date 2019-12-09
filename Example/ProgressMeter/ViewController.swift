@@ -40,6 +40,7 @@ class ViewController: UIViewController {
         progressControl.numberOfDivisions = 10
         progressControl.maxValue = 100
         progressControl.progress = 60 / 100
+        
     }
     
     /*
@@ -59,7 +60,7 @@ class ViewController: UIViewController {
     func visualSetup() {
         progressControl.progressTintColor = UIColor(appColor: .blue)
         progressControl.trackTintColor = UIColor(appColor: .gray)
-        progressControl.borderWidth = 1
+        progressControl.progressBorderWidth = 1
         progressControl.borderColor = UIColor(appColor: .graySeparator)
         progressControl.annotationTextColor = UIColor(appColor: .blue)
         progressControl.dividerColor = UIColor(appColor: .graySeparator)

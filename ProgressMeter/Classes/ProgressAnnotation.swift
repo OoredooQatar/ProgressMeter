@@ -117,12 +117,12 @@ class ProgressAnnotation: UIView {
         
         self.translatesAutoresizingMaskIntoConstraints = false
         let heightAnchor = self.heightAnchor.constraint(equalTo: superView.heightAnchor)
-        //let widthAnchor = self.widthAnchor.constraint(equalTo: label.widthAnchor)
+        let widthAnchor = self.widthAnchor.constraint(equalToConstant: 1)
         let bottomAnchor = self.bottomAnchor.constraint(equalTo: superView.progressViewBottomAnchor)
         
         viewLeading = self.centerXAnchor.constraint(equalTo: superView.progressViewLeadingAnchor, constant: leadingOffset)
         
-        NSLayoutConstraint.activate([heightAnchor, bottomAnchor, viewLeading])
+        NSLayoutConstraint.activate([heightAnchor, bottomAnchor, viewLeading,widthAnchor])
     }
     
     private func setupLabelConstraint() {
@@ -146,13 +146,14 @@ class ProgressAnnotation: UIView {
         
         divider.translatesAutoresizingMaskIntoConstraints = false
         let divTop = divider.topAnchor.constraint(equalTo: superView.progressViewTopAnchor)
-        let divHeight = divider.heightAnchor.constraint(equalToConstant: dividerHeight)
+        let divbottom = divider.bottomAnchor.constraint(equalTo: superView.progressViewBottomAnchor)
+        //let divHeight = divider.heightAnchor.constraint(equalToConstant: dividerHeight)
         let divWidth = divider.widthAnchor.constraint(equalToConstant: 1)
         let divCenter = divider.centerXAnchor.constraint(equalTo: self.centerXAnchor)
         
         NSLayoutConstraint.activate([
             divTop,
-            divHeight,
+            divbottom,
             divWidth,
             divCenter
             ])
